@@ -22,7 +22,7 @@ Initially, users are directed to the Event Registration form, where they can vie
 
 
 ### E-R Diagram
-![ER Diagram](images/example.png)
+![er diagram](https://github.com/user-attachments/assets/ca541b69-382c-4f77-8122-caa1a37af4ef)
 
 ### Video Demo of the Website
 You can watch the demo video [here](https://github.com/your-username/your-repo/blob/main/videos/demo.mp4).
