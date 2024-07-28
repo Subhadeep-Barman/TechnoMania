@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Fest Management System-Main Page</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <script type="text/javascript">
+    function validate()
+    var fname=document.getElementById("fname");
+    if(fname.value() == ("0","1","2","3","4","5","6","7","8","9","!","@","#","$","%","^","&","*","(",")"))
+     {
+     alert("only letters allowed");
+     return false;
+     } 
+    else{
+    return true;}
+    </script>
+
+</head>
+
+<body>
+
+  <!-- ======= Top Bar ======= -->
+  <div id="topbar" class="d-flex align-items-center fixed-top">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+
+      <div class="contact-info d-flex align-items-center">
+        <i class="bi bi-phone d-flex align-items-center"><span>+1 5589 55488 55</span></i>
+        <i class="bi bi-clock d-flex align-items-center ms-4"><span> Mon-Sat: 11AM - 23PM</span></i>
+      </div>
+
+      <div class="languages d-none d-md-flex align-items-center">
+        <ul>
+          <li>En</li>
+          <li><a href="#">De</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-cente">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
+
+      <h1 class="logo me-auto me-lg-0"><a href="index.html">Fest Management System</a></h1>
+
+      <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="#why-us">Event Categories</a></li>
+          <li><a class="nav-link scrollto" href="#events">Events</a></li>
+          <li><a class="nav-link scrollto" href="#gallery">Gallery</a></li>
+          <li><a class="nav-link scrollto" href="#testimonials">Sponsors</a></li>
+          <li><a class="nav-link scrollto" href="#chefs">Event Coordinators</a></li>
+          <li class="dropdown"><a href="#"><span>Login</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="Admin-Login-inner-page.html">Admin Login</a></li>
+              <li><a href="Student-Login-inner-page.html">Student Login</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+      <a href="#register" class="register-btn scrollto d-none d-lg-flex">Register</a>
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
+      <div class="row">
+        <div class="col-lg-8">
+          <h1><span>TechnoMania</span></h1>
+          <h2>The Annual Techno-Cultural Fest of IIIT Naya Raipur</h2>
+
+          <div class="btns">
+            <a href="#events" class="btn-menu animated fadeInUp scrollto">Events</a>
+            <a href="#register" class="btn-book animated fadeInUp scrollto">Register</a>
+          </div>
+        </div>
+        <div class="col-lg-4 d-flex align-items-center justify-content-center position-relative" data-aos="zoom-in" data-aos-delay="200">
+          <a href="https://www.youtube.com/watch?v=xVive-kQt_A" class="glightbox play-btn"></a>
+        </div>
+
+      </div>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row">
+          <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="100">
+            <div class="about-img">
+              <img src="assets/img/mask.jpeg" alt="">
+            </div>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+            <h3>TechnoMania</h3>
+            <p>
+              TechnoMania is the annual techno-cultural fest of IIIT Naya Raipur which is to be held in the month of December every year hugely managed by the students of the institute itself.</p><br>
+              <p>In the span of 3 days, IIIT Naya Raipur which was designed to provide 
+              a powerful problem-solving environment to help build new ideas as well as a stage to showcase one's 
+              cultural prowess which range from stand-ups to renounced singers and EDM,includes but is not limited to 
+              Coding competitions, Hacking Competitions, Battle of Bands, keynote sessions by renowned speakers. In the last edition, TechnoMania
+               received 5000+ registrations and this time, with the scale and the time-gap being much larger, 
+               we are expecting over 70000+ registrations. The main idea behind TechnoMania is to provide students 
+               with a dynamic environment to showcase their skills in any field they desire.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Why Us Section ======= -->
+    <section id="why-us" class="why-us">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Event Categories</h2>
+          <p>Our Event Categories are as follows</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4">
+            <div class="box" data-aos="zoom-in" data-aos-delay="100">
+              <span>01</span>
+              <h4>Cultural Events</h4>
+              <p>Culture is the name for what people are interested in, their thoughts, their models, the books they read and the speeches they hear.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="box" data-aos="zoom-in" data-aos-delay="200">
+              <span>02</span>
+              <h4>Technical Events</h4>
+              <p>The advance of technology is based on making it fit in so that you don't really even notice it, so it's part of everyday life.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="box" data-aos="zoom-in" data-aos-delay="300">
+              <span>03</span>
+              <h4>Informal Events</h4>
+              <p>Informal learning is enhanced when humans participate in interactive experiences.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Why Us Section -->
+<!--------------------------------------------------------------------------------------------------------------------------------->
+    <!-- ======= Events Section ======= -->
+    <section id="events" class="events">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Events</h2>
+          <p>Here are the various events we conduct.</p>
+        </div>
+
+        <div class="events-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/battle_of_dance.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Battle of Dancers</h3>
+                  <p class="fst-italic">
+                    “Life is sweet when you pay attention. When it doesn’t seem sweet, put a sticker on your nose and do a funky dance.”
+                  </p>
+                  <p>
+                    A Dance competition to show the colors and energy of the youth through dance.
+                    Bring along any theme, any song but the goal remains the same, you have to capture 
+                    the crowd with your performances.
+                  </p>
+                  <ul>
+                    <li><i class="bi bi-check-circle"></i> Venue: Auditorium</li>
+                    <li><i class="bi bi-check-circle"></i> Date: 5th November 2023</li>
+                    <li><i class="bi bi-check-circle"></i> Registration: Rs.150</li>
+                    <li><i class="bi bi-check-circle"></i> Maximum Participants: 100</li>
+                    <li><i class="bi bi-check-circle"></i> Event Code: BOD001</li>
+                  </ul>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+<!--------------------------------------------------------------------------------------------------------------------------------->
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/the_new_vogue.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>The New Vogue</h3>
+                  <p class="fst-italic">
+                    "Fashion is what you're offered four times a year by designers. And style is what you choose."
+                  </p>
+                  <p>
+                    Brace yourselves for a wide variety of dressing styles, with sassy attires, a touch of makeup, 
+                    and a body filled with confidence and enthusiasm, and bring out the best of fashion sense that you have. 
+                    Let us bring together all the fashion enthusiasts.
+                  </p>
+                  <ul>
+                    <li><i class="bi bi-check-circle"></i> Venue: Football Ground</li>
+                    <li><i class="bi bi-check-circle"></i> Date: 6th November 2023</li>
+                    <li><i class="bi bi-check-circle"></i> Registration: Rs.150</li>
+                    <li><i class="bi bi-check-circle"></i> Maximum Participants: 100</li>
+                    <li><i class="bi bi-check-circle"></i> Event Code: TNV002</li>
+                  </ul>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+<!--------------------------------------------------------------------------------------------------------------------------------->
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/battle_of_bands.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Battle of Bands</h3>
+                  <p class="fst-italic">
+                    "A great song should lift your heart, warm the soul and make you feel good."
+                  </p>
+                  <p>
+                    An electrifying musical competition to show the creativity and energy of the 
+                    masses expressed via their musical passion.Bring along any theme, any song but 
+                    the goal remains the same, you have to capture the crowd with your performances, and impress the judges.
+                  </p>
+                  <ul>
+                    <li><i class="bi bi-check-circle"></i> Venue: Football Ground</li>
+                    <li><i class="bi bi-check-circle"></i> Date: 7th November 2023</li>
+                    <li><i class="bi bi-check-circle"></i> Registration: Rs.300 (For duo) and Rs.600 (For group)</li>
+                    <li><i class="bi bi-check-circle"></i> Maximum Participants: 800</li>
+                    <li><i class="bi bi-check-circle"></i> Event Code: BOB003</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+<!--------------------------------------------------------------------------------------------------------------------------------->            
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/codewars.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Codewars</h3>
+                  <p class="fst-italic">
+                    “Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live..”
+                  </p>
+                  <p>
+                    The core coding competition-Codewars. The participants will compete to solve the highest number of questions 
+                    correctly in the allotted time, where wrong submissions will include penalties. These questions will test the contestant’s 
+                    basic programming skills, along with their logical and mathematical reasoning abilities.
+                  </p>
+                  <ul>
+                    <li><i class="bi bi-check-circle"></i> Venue: Cp Lab</li>
+                    <li><i class="bi bi-check-circle"></i> Date: 5th November 2023</li>
+                    <li><i class="bi bi-check-circle"></i> Registration: Rs.100</li>
+                    <li><i class="bi bi-check-circle"></i> Maximum Participants: 100</li>
+                    <li><i class="bi bi-check-circle"></i> Event Code: CW004</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+<!--------------------------------------------------------------------------------------------------------------------------------->            
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/hacknovate-03.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Hacknovate</h3>
+                  <p class="fst-italic">
+                    "Problem-solving, inventing, hacking and coding is more of an adrenaline rush of endorphins rather than a feeling.""
+                  </p>
+                  <p>
+                    Hacknovate, where participating teams will be developing applications that are 
+                    viable solutions for problem statements.
+                  </p>
+                  <ul>
+                    <li><i class="bi bi-check-circle"></i> Venue: Data Science Lab</li>
+                    <li><i class="bi bi-check-circle"></i> Date: 6th November 2023</li>
+                    <li><i class="bi bi-check-circle"></i> Registration: Rs.150</li>
+                    <li><i class="bi bi-check-circle"></i> Maximum Participants: 300</li>
+                    <li><i class="bi bi-check-circle"></i> Event Code: HCV005</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+<!--------------------------------------------------------------------------------------------------------------------------------->            
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/investomania.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Investomania</h3>
+                  <p class="fst-italic">
+                    "Every smart person that I admire in the world, and those I semi-fear,is focused on this concept of crypto for a reason.
+                  </p>
+                  <p>
+                    This event will be hosted in Stockgro using the basic trading knowledge all the participants will be provided with some 
+                    lumpsum virtual money which they would use to trade for stocks. The player with the maximum portfolio value at the end 
+                    of event will be the winner.
+                  </p>
+                  <ul>
+                    <li><i class="bi bi-check-circle"></i> Venue: IOT Lab</li>
+                    <li><i class="bi bi-check-circle"></i> Date: 7th November 2023</li>
+                    <li><i class="bi bi-check-circle"></i> Registration: Rs.200</li>
+                    <li><i class="bi bi-check-circle"></i> Maximum Participants: 400</li>
+                    <li><i class="bi bi-check-circle"></i> Event Code: INV006</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+<!--------------------------------------------------------------------------------------------------------------------------------->            
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/VR_gaming.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>VR Gaming</h3>
+                  <p class="fst-italic">
+                    “Virtual Reality is all about realistic and immersive simulation of an environment where you would go crazy.”
+                  </p>
+                  <p>
+                    Virtual reality is inherently an interactive medium; therefore, the simple transference of content from sequential media makes little sense.
+                    Different games will be played in the AR/VR format.
+                  </p>
+                  <ul>
+                    <li><i class="bi bi-check-circle"></i> Venue: Room No 121</li>
+                    <li><i class="bi bi-check-circle"></i> Date: 4th November 2023</li>
+                    <li><i class="bi bi-check-circle"></i> Registration: Rs.300</li>
+                    <li><i class="bi bi-check-circle"></i> Maximum Participants: 100</li>
+                    <li><i class="bi bi-check-circle"></i> Event Code: VRG007</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+<!--------------------------------------------------------------------------------------------------------------------------------->            
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/casino_royale.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Casino Royale</h3>
+                  <p class="fst-italic">
+                    “Life is sweet when you pay attention. When it doesn’t seem sweet, put a sticker on your nose and do a funky dance.”
+                  </p>
+                  <p>
+                    Roulette is a casino game in which a player may choose to place a bet on a single number, 
+                    various groupings of numbers, the color red or black, whether the number is odd or even, 
+                    or if the numbers are high (19–36) or low (1–18). Each player can bet only in the range 
+                    of 1 token to 5 tokens.
+                  </p>
+                  <ul>
+                    <li><i class="bi bi-check-circle"></i> Venue: Palm Park</li>
+                    <li><i class="bi bi-check-circle"></i> Date: 5th November 2023</li>
+                    <li><i class="bi bi-check-circle"></i> Registration: Rs.250</li>
+                    <li><i class="bi bi-check-circle"></i> Maximum Participants: 100</li>
+                    <li><i class="bi bi-check-circle"></i> Event Code: CR008</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+<!--------------------------------------------------------------------------------------------------------------------------------->            
+            <div class="swiper-slide">
+              <div class="row event-item">
+                <div class="col-lg-6">
+                  <img src="assets/img/gamers_crusade.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-lg-6 pt-4 pt-lg-0 content">
+                  <h3>Gamers Crusade</h3>
+                  <p class="fst-italic">
+                    “Life is sweet when you pay attention. When it doesn’t seem sweet, put a sticker on your nose and do a funky dance.”
+                  </p>
+                  <p>
+                    Gamer's Crusade, an online gaming event in which teams will participate in 
+                    different games and compete against each other. Choose your rivals in Valorant, BGMI or GS:Counter Strike and fight against them.
+                  </p>
+                  <ul>
+                    <li><i class="bi bi-check-circle"></i> Venue: Online Mode</li>
+                    <li><i class="bi bi-check-circle"></i> Date: 6th November 2023</li>
+                    <li><i class="bi bi-check-circle"></i> Registration: Rs.100</li>
+                    <li><i class="bi bi-check-circle"></i> Maximum Participants: 100</li>
+                    <li><i class="bi bi-check-circle"></i> Event Code: GC009</li>
+                  </ul>
+                </div>
+              </div>
+            </div><!-- End testimonial item -->
+<!--------------------------------------------------------------------------------------------------------------------------------->
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Events Section -->
+
+    <!-- ======= Book A Table Section ======= -->
+    <section id="register" class="register">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Register here</h2>
+          <p>Event Registration Form</p>
+        </div>
+
+        <form onsubmit="return validate()" action="reg.php" method="post" role="form" class="php-email-form" data-aos="fade-up" data-aos-delay="100">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 form-group mt-3">
+              <input type="text" name="fname" class="form-control" id="fname" placeholder="Your Full Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <div class="validate"></div>
+            </div>
+            <div class="col-lg-4 col-md-6 form-group mt-3">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
+              <div class="validate"></div>
+            </div>
+            <div class="col-lg-4 col-md-6 form-group mt-3">
+              <input type="text" class="form-control" name="phone" id="phone" placeholder="Your Phone" data-rule="minlen:10" data-msg="Please enter at least 10 chars">
+              <div class="validate"></div>
+            </div>
+            <div class="col-lg-4 col-md-6 form-group mt-3">
+              <input type="text" class="form-control" name="age" id="age" placeholder="Your Age" data-rule="minlen:1" data-msg="Please enter at least 1 chars">
+              <div class="validate"></div>
+            </div>
+            <div class="col-lg-4 col-md-6 form-group mt-3">
+              <input type="text" class="form-control" name="gender" id="gender" placeholder="Your Gender" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <div class="validate"></div>
+            </div>
+            <div class="col-lg-4 col-md-6 form-group mt-3">
+              <input type="text" name="address" class="form-control" id="address" placeholder="Your Address" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <div class="validate"></div>
+            </div>
+            <div class="col-lg-4 col-md-6 form-group mt-3">
+              <input type="text" name="collegename" class="form-control" id="collegename" placeholder="Your College name" data-rule="minlen:4" data-msg="Please enter at least 2 chars">
+              <div class="validate"></div>
+            </div>
+            <div class="col-lg-4 col-md-6 form-group mt-3">
+              <input type="text" name="branch" class="form-control" id="branch" placeholder="Your Branch" data-rule="minlen:3" data-msg="Please enter at least 3 chars">
+              <div class="validate"></div>
+            </div>
+            <div class="col-lg-4 col-md-6 form-group mt-3">
+              <input type="text" name="eventcode" class="form-control" id="eventcode" placeholder="Your event code" data-rule="minlen:3" data-msg="Please enter at least 3 chars">
+              <div class="validate"></div>
+            </div>
+
+
+            <!--<div class="col-lg-4 col-md-6 form-group mt-3">
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm-4">
+                    <label for="">Your  Event Code</label>
+                    <select name="" id="" class="form-control" placeholder="Your Gender">
+                    <option value="">Select</option>
+                    <option value="2">Male</option>
+                    <option value="3">Female</option>
+                    <option value="4">Others</option>
+                    </select>
+                    <div class="validate"></div>
+                   <input type="text" class="form-control" name="people" id="people" placeholder="# of people" data-rule="minlen:1" data-msg="Please enter at least 1 chars">
+                   <div class="validate"></div>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+          
+          
+            <div class="mb-3">
+            <div class="loading">Loading</div>
+            <div class="error-message"></div>
+            <div class="sent-message">Your Registration was successfully completed. We will send an Email to confirm your Registration. Thank you!</div>
+          </div>
+          <div class="text-center"><button type="submit">SUBMIT</button></div>
+
+          <div class="a-divider a-divider-break"><h5 aria-level="5">For Further Registration Process Click the Unstop Link Below!</h5></div>
+        <span id="auth-create-account-link" class="a-button a-button-span12 a-button-base"><span class="a-button-inner"><a id="createAccountSubmit" href="https://unstop.com/festival/TechnoMania-2022-international-institute-of-information-technology-iiit-naya-raipur-54915" class="a-button-text">
+          Unstop
+        </a></span></span>
+        </form>
+
+      </div>
+    </section><!-- End Register Section -->
+
+    <!-- ======= Sponsors Section ======= -->
+    <section id="testimonials" class="testimonials section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Sponsors</h2>
+          <p>Thank you for sponsoring us</p>
+        </div>
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Coca-Cola India is a subsidiary of The Coca-Cola Company and operates in India. The company supports sustainable 
+                  development and inclusive growth by focusing on social issues.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/coca-cola.jpeg" class="testimonial-img" alt="">
+                <h3>Coca Cola</h3>
+                <h4>Associate Sponsor</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Airchains enable you to run your own blockchain network with customizable features. It is guided by the principles of modular architecture.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/airchains-2.png" class="testimonial-img" alt="">
+                <h3>Airchains</h3>
+                <h4>Title Sponsor</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  NTPC Limited India's largest energy conglomerate with roots planted way back in 1975 to accelerate power development in India.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/NTPC-2.png" class="testimonial-img" alt="">
+                <h3>NTPC</h3>
+                <h4>Gold Sponsor</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  PUNO is India’s 1st Multifaceted Indoor Adventure and Trampoline Park, aiming to reflect the evolving cultural & lifestyle outlook of this heritage city in the modern era.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/puno.jpeg" class="testimonial-img" alt="">
+                <h3>Puno</h3>
+                <h4>Silver Sponsor</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Smart City Naya Raipur, a technologically modern urban area, uses different types of electronic methods and sensors to collect data which is used to manage assets, resources and services efficiently across the whole Naya Raipur.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/Smart-City02.png" class="testimonial-img" alt="">
+                <h3>Smart City Naya Raipur Atal Nagar</h3>
+                <h4>Platinum Sponsor</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+    <!-- ======= Gallery Section ======= -->
+    <section id="gallery" class="gallery">
+
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Gallery</h2>
+          <p>Some photos from Our Fest</p>
+        </div>
+      </div>
+
+      <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row g-0">
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-1.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/gallery/gallery-1.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-2.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/gallery/gallery-2.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-3.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/gallery/gallery-3.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-4.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/gallery/gallery-4.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-5.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/gallery/gallery-5.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-6.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/gallery/gallery-6.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-7.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/gallery/gallery-7.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-8.jpg" class="gallery-lightbox" data-gall="gallery-item">
+                <img src="assets/img/gallery/gallery-8.jpg" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Gallery Section -->
+
+    <!-- ======= Events Coordinators ======= -->
+    <section id="chefs" class="chefs">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Event Coordinators</h2>
+          <p>Our Event Coordinators</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member" data-aos="zoom-in" data-aos-delay="200">
+              <img src="Snapchat-3332266.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4></h4>
+                  <span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member" data-aos="zoom-in" data-aos-delay="100">
+              <img src="IMG_20230210_002452.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4>Subhadeep Barman</h4>
+                  <span></span>
+                </div>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+    
+
+          <div class="col-lg-4 col-md-6">
+            <div class="member" data-aos="zoom-in" data-aos-delay="300">
+              <img src="IMG-20220731-WA0018.jpg" class="img-fluid" alt="">
+              <div class="member-info">
+                <div class="member-info-content">
+                  <h4></h4>
+                  <span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Chefs Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+          <p>Contact Us</p>
+        </div>
+      </div>
+
+      <div data-aos="fade-up">
+        <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7443.265268443514!2d81.7643724129455!3d21.127207458112654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x4e3568497a7e1d7e!2sInternational%20Institute%20of%20Information%20Technology%2C%20Naya%20Raipur!5e0!3m2!1sen!2sin!4v1674509475805!5m2!1sen!2sin" frameborder="0" allowfullscreen></iframe>
+      </div>
+
+      <div class="container" data-aos="fade-up">
+
+        <div class="row mt-5">
+
+          <div class="col-lg-4">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>Naya Raipur, Sector-24, Near Purkhoti Muktangan, Abhanpur, Chhattisgarh</p>
+              </div>
+
+              <div class="open-hours">
+                <i class="bi bi-clock"></i>
+                <h4>Open Hours:</h4>
+                <p>
+                  Monday-Saturday:<br>
+                  09:00 AM - 11:30 PM
+                </p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>https://TechnoMania.iiitnr.ac.in//</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>+077124 74040</p>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0">
+
+            <form action="stucontact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" id="message" rows="8" placeholder="Message" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-info">
+              <h3>TechnoMania</h3>
+              <p>
+                IIIT Naya Raipur, Sector-24, Near Purkhoti Muktangan, <br>
+                Abhanpur, Chhattisgarh<br><br>
+                <strong>Phone:</strong> +077124 74040<br>
+                <strong>Email:</strong> https://TechnoMania.iiitnr.ac.in//<br>
+              </p>
+              <div class="social-links mt-3">
+                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
