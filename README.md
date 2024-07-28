@@ -14,7 +14,8 @@ Initially, users are directed to the Event Registration form, where they can vie
 
 ### Sequence Diagram
 - **Student Login**
- ![Student Login](images/example.png)
+![student login](https://github.com/user-attachments/assets/62d8cccc-9ce6-49f6-997b-43c43f24217f)
+
 
 - **Admin Login**
 ![admin login](https://github.com/user-attachments/assets/9270f822-a8e3-4132-a2c0-3941964820ff)
