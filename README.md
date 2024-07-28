@@ -1,3 +1,5 @@
+# FEST MANAGMENT SYSTEM
+
 ## Abstract
 
 A Fest Management System can help organizers plan, execute, and monitor festivals or events more efficiently and effectively by providing a centralized platform for managing all aspects of an event. This project offers features for remotely creating, removing, retrieving information, and allotting tasks to different participants in an event. It grants important access to the admin and all individuals related to a particular event, giving Event Managers access to participant lists. The system integrates modules such as Event Registration, Ticketing, Attendance Management, Budget Management, and Event Analysis. It also offers real-time communication, automated notifications, a dashboard for activity monitoring, data reporting, and analytics. The system was developed using HTML5, CSS3, JavaScript, PHP, and MySQL.
