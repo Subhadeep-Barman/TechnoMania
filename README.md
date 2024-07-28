@@ -17,7 +17,8 @@ Initially, users are directed to the Event Registration form, where they can vie
  ![Student Login](images/example.png)
 
 - **Admin Login**
-![Admin Login](images/example.png)
+![admin login](https://github.com/user-attachments/assets/9270f822-a8e3-4132-a2c0-3941964820ff)
+
 
 ### E-R Diagram
 ![ER Diagram](images/example.png)
