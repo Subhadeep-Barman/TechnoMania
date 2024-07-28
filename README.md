@@ -25,7 +25,7 @@ Initially, users are directed to the Event Registration form, where they can vie
 ![er diagram](https://github.com/user-attachments/assets/ca541b69-382c-4f77-8122-caa1a37af4ef)
 
 ### Video Demo of the Website
-You can watch the demo video [here](https://github.com/your-username/your-repo/blob/main/videos/demo.mp4).
+https://github.com/user-attachments/assets/1663da18-2ee1-490a-a32b-645ae6b396a0
 
 
 ### Advantages
